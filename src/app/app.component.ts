@@ -8,4 +8,5 @@ import { Component } from '@angular/core';
 export class AppComponent {
   // title = 'HelloWorld-Angular';
   title = 'Hello from BridgeLabz';
+  imgUrl ="./assets/BridgeLabz-logo.jpg"; 
 }
