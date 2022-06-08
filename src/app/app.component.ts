@@ -9,4 +9,12 @@ export class AppComponent {
   // title = 'HelloWorld-Angular';
   title = 'Hello from BridgeLabz';
   imgUrl ="./assets/BridgeLabz-logo.jpg"; 
+  url = "https://www.bridgelabz.com";
+
+
+onclick($event) {
+  console.log("Save Button is Clicked", $event);
+  window.open(this.url, "_blank");
+ }
 }
+
