@@ -529,9 +529,12 @@
 <!-- * * * * * * * * * * End of Placeholder * * * * * * * * * * * -->
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 
+
+
 <div>
   <h1>{{this.title}}</h1>
-  <img [src]="imgUrl"
+  <img [src]="imgUrl" (click) ="onclick($event)"
+  
   alt="A BridgeLabz logo"
   />
 </div>
