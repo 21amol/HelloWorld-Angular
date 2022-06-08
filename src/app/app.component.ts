@@ -10,6 +10,7 @@ export class AppComponent {
   title = 'Hello from BridgeLabz';
   imgUrl ="./assets/BridgeLabz-logo.jpg"; 
   url = "https://www.bridgelabz.com";
+  userName: string = " Amol";
 
 
 onclick($event) {
